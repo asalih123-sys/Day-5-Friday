@@ -7,7 +7,7 @@ function calculateSpeed() {
         return alert("Error please enter a value above 0");
     }
 
-    let time = distanceValue * speedValue;
+    let time = distanceValue / speedValue;
     let timeConverted = time * 60;
     let currentDate = new Date();
     let currentTime = currentDate.getTime();
